@@ -33,6 +33,7 @@ public class SelectclassMethods {
 		Thread.sleep(2000);
 		WebElement month = driver.findElement(By.xpath("//select[@aria-label='Month']"));
 		
+		
 		Select s1=new Select(month);
 		s1.selectByIndex(10);
 		Thread.sleep(2000);
@@ -47,6 +48,12 @@ public class SelectclassMethods {
 		s2.selectByValue("1983");
 		Thread.sleep(2000);
 		s2.selectByVisibleText("1947");
+		
+		System.out.println("ajsfgahjsgf");
+
+		System.out.println("efreweahjsgf");
+
+		System.out.println("ssxxsxxxx");
 		
 		driver.close();
 		
